@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 12px;
+}
+
+.toolbar {
+    background-color: black;
+    height: 60px;
+    border-bottom: 0px;
+    width: 100%;
+}
+
+#wrapper {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    background-color: black;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 150px;
+    padding-top: 5px;
+}
+
+.search_box {
+    background-color: E0E0E0;
+    position: static;
+    margin-top: -25px;
+    margin-left: 200px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1080px) {
+#menu {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 15px;
+    margin-right: 4%;
+}
+}
+@media screen and (min-width: 1080px) {
+#menu {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 15px;
+    margin-right: 10%;
+}
+}
+
+@media screen and (min-width: 1920px) {
+#menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 20px;
+    margin-right: 20%;
+}
+}
+
+#menu input[type=submit] {
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: none;
+}
+
+#menu input[type=submit]:hover {
+    background-color: #bfbfbf;
+}
+
+html { 
+  background-color: ECF0F1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#parent {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#loginbox {
+    display: inline-block;
+    padding: 20px;
+    background-color: #F2F2F2;
+    margin-right: 10px;
+    width: 250px;
+}
+
+
+#loginbox input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#loginbox input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loginbox input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#signupbox {
+    display: inline-block;
+    padding: 20px;
+    background-color: #F2F2F2;
+    margin-left: 10px;
+    width: 250px;
+}
+
+#signupbox input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#signupbox input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#signupbox input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#newpwdbox {
+    display: inline-block;
+    padding: 20px;
+    background-color: #F2F2F2;
+    margin-left: 10px;
+    width: 250px;
+}
+
+#newpwdbox input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#newpwdbox input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#newpwdbox input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#newstorybox {
+    display: inline-block;
+    padding: 20px;
+    background-color: #F2F2F2;
+    margin-left: 10px;
+    width: 250px;
+}
+
+#newstorybox input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#newstorybox input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#newstorybox input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#storyPage {
+    
+}
+
+#postbox {
+    display: inline-block;
+    padding: 20px;
+    background-color: #F2F2F2;
+    width: 250px;
+    margin: auto;
+}
+
+ol {
+    line-height: 200%;
+}
+
+textarea {
+    resize: none;
+}
+
+table, th, td {
+    padding: 5px;
+}
+
+table {
+    border-spacing: 15px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}

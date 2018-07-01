@@ -1,0 +1,20 @@
+{% extends "login.html" %}
+
+{% block title %}Library{% endblock %}
+
+{% block content %}
+<div id="parent">
+  <div id="storyList">
+    <center><h1>Library</h1><center>
+    <list>
+      <ol>
+	{% for entry in libList %}
+	<li>
+	  <a href={{ url_for('storyPage', storyID = entry[1]) }}>{{ entry[0] }}</a>
+	</li>
+	{% endfor %}
+      </ol>
+    </list>
+  </div>
+</div>
+{% endblock %}
